@@ -1,0 +1,829 @@
+%FlexRow{
+    display: flex;
+    flex-flow: row;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+  
+    margin: 0;
+    line-height: 1;
+    font-size: 18pt;
+    color: black;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+
+  section {
+    margin-top: 49px;
+  }
+  
+  /* Header*/
+  
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .header {
+    width: 100%;
+    max-width: 1279px;
+    margin: 0 auto;
+  } 
+  .menu {
+    margin-top: 45px;
+    display: flex;
+  }
+  
+  .navs {
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    width: 85%;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 10%;
+  }
+  
+  .navlink {
+    height: min-content;
+    margin: 0 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    transition: color 50ms linear;
+  }
+  
+  .navlink:hover {
+    color: #7e7e7e;
+  }
+  
+  /* Intro */
+  .intro {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 700px;
+  
+    background: url("../assets/thone.png") right top no-repeat;
+    .container{
+        @extend %FlexRow;
+    }
+  }
+  
+  .TopAnips{
+    position: relative;
+    width: 42%;
+  }
+  
+  .Anips3{
+    margin-top: 60px;
+    position: absolute;
+    width: 110%;
+    right: -60px;
+  }
+  
+  .greeting {
+    max-width: 658px;
+    padding-left: 60px;
+    text-align: left;
+    box-sizing: unset;
+  }
+  
+  .greetingTitle {
+    max-width: 550px;
+    font-family: "Roboto Black", sans-serif;
+    font-weight: 700;
+    font-size: 2.1em;
+    line-height: 1.2;
+    padding: 25px 0;
+  }
+  
+  .greetingText {
+    max-width: 658px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14pt;
+    line-height: 2;
+    padding-bottom: 25px;
+  }
+  
+  .greetingEnter {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: black;
+  
+    font-size: .85rem;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    height: 48px;
+    padding: 16px 28px;
+    background-color: #f5eb05;
+    transition: box-shadow 80ms linear;
+  }
+  
+  .greetingEnter:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  /*First section*/
+  
+  .first{
+    h3 {
+        font-weight: 300;
+        font-size: 1.5em;
+      
+        padding: 15px 0 15px 24px;
+        margin: 57px 0 29px 0;
+        }
+    
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 100%;
+        width: 100%;
+        }
+  } 
+  
+  
+  .lightMeasur {
+    width: 100%;
+    h3 {
+    border-left: #0076a7 solid 8px;
+    }
+    
+    .info {
+    border-bottom: #0076a7 solid 8px;
+    }
+    
+    .product:hover .info {
+    background-color: #0076a7;
+    }
+  }
+  .lightInOut{
+    width: 100%;
+    h3 {
+        border-left: #47bae1 solid 8px;
+      }
+      
+      .info {
+        border-bottom: #47bae1 solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #47bae1;
+      }
+  }  
+  .lightDataCol{
+    width: 100%;
+    h3 {
+        border-left: #00a38e solid 8px;
+      }
+      
+      .info {
+        border-bottom: #00a38e solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #00a38e;
+      }
+  }  
+  .lightSynchT{
+      width: 100%;
+      margin-right: 20px;
+    h3 {
+        border-left: #c5b200 solid 8px;
+      }
+      
+      .info {
+        border-bottom: #c5b200 solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #c5b200;
+      }
+  } 
+  .lightIndi{
+    width: 100%;
+    h3 {
+        border-left: #e94b5a solid 8px;
+      }
+      
+      .info {
+        border-bottom: #e94b5a solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #e94b5a;
+      }
+  } 
+  .lightSpec {
+    width: 100%;
+    h3 {
+        border-left: #be0068 solid 8px;
+      }
+      
+      .info {
+        border-bottom: #be0068 solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #be0068;
+      }
+  } 
+  .lightOptions{
+    width: 100%;
+    h3 {
+        border-left: #93378c solid 8px;
+      }
+      
+      .info {
+        border-bottom: #93378c solid 8px;
+      }
+      
+      .product:hover .info {
+        background-color: #93378c;
+      }
+  } 
+  
+  .products {
+    @extend %FlexRow;
+    justify-content: space-between;
+  }
+  
+  .product {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: #ebebeb 1px solid;
+    border-bottom: none;
+  
+    text-decoration: none;
+    color: black;
+  
+    transition: box-shadow 80ms linear;
+  }
+  
+  .product:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  }
+  
+  .product:hover .info {
+    color: white;
+  }
+  
+  .info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+  
+    transition: background-color 80ms linear, color 80ms linear;
+  
+    padding-top: 8px;
+  }
+  
+  .info h4 {
+    font-size: 14pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 0.1em;
+  }
+  
+  .info p {
+    font-size: 0.7em;
+    font-weight: 300;
+    margin: 0.7em auto;
+  }
+  
+  .devices {
+    @extend %FlexRow;
+    width: 100%;
+    height: 433px;
+    display: flex;
+    
+  }
+  
+  
+  /*Second section*/
+  
+  .Second {
+    padding-top: 62px;
+    padding-bottom: 90px;
+    margin-top: 206px;
+    background: url("../assets/thone_anip2.png") top no-repeat;
+  }
+  
+  .SecondHeader {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+  
+    padding: 2px 24px;
+    margin: 0 0 29px 0;
+  
+    border-left: #f5eb05 solid 7px;
+  }
+  
+  .HeaderBottom {
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+  
+    margin: 35px 0 70px;
+  }
+  
+  .SecondInf {
+    font-weight: 300;
+    color: white;
+  
+    margin: 15px 0;
+    font-size: .75em;
+    text-transform: none;
+    line-height: 1.4;
+  }
+  
+  .tab {
+    padding: 0 39px;
+  }
+  
+  .listOfAnip2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d9d9d9;
+    margin-top: 70 px;
+  }
+  
+  .Anip2 {
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 1px solid #d9d9d9;
+    background-color: white;
+  }
+
+  .bord{
+    border-bottom: 1px solid #d9d9d9;
+  }
+  
+  .image {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 394px;
+  }
+  
+  .AnipInfo {
+    display: flex;
+    flex-direction: column;
+    width: 657px;
+    font-size: 0.7em;
+  
+    border-left: #ebebeb 1px solid;
+  
+    padding: 33px 0 0 40px;
+  }
+  
+  .TitleAnip {
+    height: min-content;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+  
+    transition: color 80ms linear;
+  }
+  
+  .TitleAnip:hover {
+    color: #048cf5;
+  }
+  
+  .versions {
+    margin: 26px 15px 32px 0;
+    padding-left: 0;
+    line-height: 1.2;
+  }
+  
+  .price {
+    width: 230px;
+    background-color: #f8f7dc;
+    border-left: #ebebeb 1px solid;
+  }
+  
+  .price > p {
+    display: flex;
+    justify-content: center;
+  
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+  }
+  
+  p > sub {
+    display: flex;
+    align-items: flex-end;
+  
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 0.7em;
+  
+    margin-left: 4px;
+  }
+  
+  /*Settings*/
+  
+  .SettingsTitle {
+    font-size: 1.6em;
+    font-weight: 300;
+    text-align: center;
+    margin: 120px 0 40px 0;
+  }
+  
+  .PanelOfSettings {
+    display: flex;
+    width: 100%;
+  }
+  
+  .Settings {
+    @extend %FlexRow;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .Setting {
+    background-color: white;
+    display: flex;
+    width: 415px;
+    min-height: 280px;
+    margin: 10px 0;
+  
+    border: #ebebeb 1px solid;
+  
+    transition: box-shadow 80ms linear;
+  }
+  
+  .setting:hover .setting__top {
+    color: #048cf5;
+  }
+  
+  .setting:hover {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+  }
+  
+  .SettingInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.8em;
+    line-height: 1.8;
+  
+    padding: 20px 30px 25px;
+  }
+  
+  .FirstTextSetting {
+    font-size: 1em;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+  
+  
+    transition: color 80ms linear;
+  }
+  
+  .SecondTextSetting {
+    margin: 0;
+  }
+  
+  
+  .PriceOfSetting {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  /*Ordering block*/
+  
+  .Order {
+    display: flex;
+    flex-flow: column;
+    background-color: #f5eb05;
+    justify-content: center;
+    margin-top: 42px;
+  }
+  
+  .OrderTitle {
+    margin: 30px auto 0;
+  }
+  
+  .OrderInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 700;
+  
+    margin: 30px auto;
+    width: 55%;
+  }
+  
+  .email {
+    font-weight: 700;
+    color: black;
+  }
+  
+  .phone{
+    font-weight: 700;
+  }
+  
+  .Line {
+    border-left: black 3px solid;
+  }
+  
+  /*Accessory section*/
+  
+  .Third {
+    margin-top: 0;
+  }
+  
+  .AccessoryTitle {
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .AccessoryTitle::before {
+    content: " ";
+    display: block;
+    width: 97px;
+    height: 7px;
+    margin: 0 auto 25px;
+    background-color: #f5eb05;
+  }
+  
+  .AccessoryList {
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 10%;
+    margin-bottom: 34px;
+    padding-left: 0;
+  }
+  
+  .AccessoryInfo {
+    @extend %FlexRow;
+    margin: 34px 0;
+  }
+  
+  %LeftLine {
+    margin-top: 10px;
+    width: 40%;
+    max-width: 670px;
+  }
+
+  .FirstLine {
+    @extend %LeftLine;
+    border-top: #f5eb8f 3px solid;
+  }
+  
+  .SecondLine {
+    @extend %LeftLine;
+    border-top: #f5eb8f 3px solid;
+  }
+  
+  .ThirdLine {
+    @extend %LeftLine;
+    border-top: #dbedf3 3px solid;
+  }
+  
+  .AccessoryText {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #909090;
+  
+    max-width: 890px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .AccessoryThirdName{
+    padding-top: 4%;
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  
+  /*Advantages*/
+  
+  .Fourth{
+    margin-top: 140px;
+  }
+  
+  .AdvantageContainer {
+    @extend %FlexRow;
+  }
+  
+  .ImageBlock {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 60%;
+    background: #eff3f7;
+  
+    height: 550px;
+    position: relative;
+  }
+  
+  .ImageAdvantage{
+    margin: 30px 0;
+    position: absolute;
+    right: -250px;
+    width: 120%;
+  }
+  
+  .TextAdv {
+    display: flex;
+    flex-flow: column;
+  
+    margin-right: calc((100% - 1279px) / 2);
+  }
+  
+  .TitleAdv {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #8b8b8b;
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  
+  .Advantagelist{
+    margin: 120px 0 20px 50px;
+  }
+  
+  .advantage{
+  font-size: 0.9em;
+    margin: 25px 0 20px 150px;
+    padding-left: 50px;
+  }
+  
+  .advantage::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 31px;
+    height: 4px;
+    margin-right: 37px;
+    background-color: #f5eb05;
+  }
+  
+  .Contacts{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .ContactsWay{
+    display: flex;
+    flex-flow: column;
+    width: 49.2%;
+    border: #8b8b8b 2px solid;
+    text-decoration: none;
+    color: black;
+  
+    transition: box-shadow 80ms linear;
+  }
+  
+  .ContactInfo .email{
+    text-decoration: underline;
+  }
+  
+  .ContactsWay:hover .ContactInfo , .ContactsWay:hover .ContactInfo .email{
+    color: #048cf5;
+  }
+  
+  .ContactsWay:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+  }
+  
+  .ContactInfo{
+    text-align: left;
+    color: black;
+    padding: 30px 5px 30px 100px;
+  }
+  
+  .ContactsText{
+    text-decoration: none;
+  margin-bottom: 10px;
+  }
+  
+  /*Footer*/
+  
+  footer{
+    background-color: black;
+    margin-top: 38px;
+  }
+  
+  footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 20px 10px 50px;
+    justify-content: space-between;
+  
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 0.7em;
+  
+  
+    color: #bdc5cb;
+  }
+  
+  .logoFooter{
+    margin-bottom: 20px;
+  }
+  
+  .footerText{
+    margin: 15px 0;
+  }
+  
+  .footerLink{
+    color: #bdc5cb;
+  
+  }
+  
+  .--first{
+  width: 40%;
+  }
+  
+  .--second{
+    width: 20%;
+    padding-top: 10px;
+  
+  }
+  
+  .--third{
+    width: 25%;
+    padding-top: 80px;
+    line-height: 1.2;
+  }
+  
+  wh{
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
